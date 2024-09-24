@@ -22,6 +22,6 @@ class Manga(db.Model):
             'author': self.author,
             'description': self.description,
             'cover_image': self.cover_image,
-            'genres': [genre.to_dict() for genre in self.genres],  # Include genres in the dict
+            'genres': [genre.to_dict() for genre in self.genres],  
             'reviews': self.reviews
         }
