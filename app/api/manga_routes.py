@@ -10,12 +10,3 @@ def manga_index():
     mangas = Manga.query.all()
 
     return [manga.to_dict() for manga in mangas]
-
-
-
-
-@manga_routes.route('/')
-def manga_index():
-    mangas = Manga.query.all()
-
-    return [manga.to_dict() for manga in mangas]
