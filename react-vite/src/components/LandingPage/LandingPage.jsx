@@ -1,7 +1,6 @@
 const LandingPage = () => {
     return (
       <div className="landing-page">
-        {/* Hero Section */}
         <section className="hero">
           <div className="hero-content">
             <h1>Discover & Review Your Favorite Manga</h1>
@@ -13,7 +12,6 @@ const LandingPage = () => {
           </div>
         </section>
 
-        {/* Features Section */}
         <section className="features">
           <h2>Why Choose MangaReview?</h2>
           <div className="features-grid">
@@ -32,11 +30,9 @@ const LandingPage = () => {
           </div>
         </section>
 
-        {/* Recent Reviews Section */}
         <section className="recent-reviews">
           <h2>Recent Reviews</h2>
           <div className="reviews-grid">
-            {/* These would be dynamically populated in a real-world scenario */}
             <div className="review-item">
               <h3>Naruto</h3>
               <p>"Amazing character development, especially with Naruto and Sasuke's rivalry..."</p>
@@ -56,7 +52,6 @@ const LandingPage = () => {
           <button className="see-all-button">See All Reviews</button>
         </section>
 
-        {/* Footer Section */}
         <footer className="footer">
           <p>© 2024 MangaReview. All rights reserved.</p>
           <div className="social-icons">
